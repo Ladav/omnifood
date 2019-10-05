@@ -234,6 +234,7 @@ header {
     width: 100%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.97);
+    -webkit-box-shadow: 0 2px 2px #e0e0e0;
     box-shadow: 0 2px 2px #e0e0e0;
     z-index: 9999;
 }
@@ -619,3 +620,20 @@ footer p {
 }
 
 
+/***************************************************************************/
+/* Animations */
+/***************************************************************************/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 { 
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 { -webkit-animation-duration: 1s; animation-duration: 1s; }
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated { opacity: 1; }

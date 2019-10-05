@@ -12,6 +12,7 @@ $(document).ready( function() {
             offset: '60px'
     })
 
+    
 /* scroll button */
     $('.js--scroll-to-plans').click( function() {
         $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
@@ -21,6 +22,7 @@ $(document).ready( function() {
         $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
     });
 
+    
 /* navigation scroll */
     // Select all links with hashes
     $('a[href*="#"]')
@@ -56,4 +58,32 @@ $(document).ready( function() {
       });
     
     
+/* scrolling animations */
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn')
+    },{
+        offset: '50%'
+    });
+
+    $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated slideInUp')
+    },{
+        offset: '50%'
+    });
+    
+    $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated fadeIn')
+    },{
+        offset: '50%'
+    });
+    
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated pulse')
+    },{
+        offset: '50%'
+    });
+    
+    
 });
+
+
