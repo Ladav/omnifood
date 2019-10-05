@@ -180,6 +180,8 @@
     html { overflow-x: hidden; }
     .hero-text-box h1 { font-size: 180%; }
     
+    .mobile-nav-icon i { font-size: 160%; }
+    
     h1 { font-size: 200%; }
     h2 { font-size: 180%; }
     h2:after { width: 15%; }
