@@ -11,8 +11,7 @@ $(document).ready( function() {
         }, {
             offset: '60px'
     })
-
-    
+  
 /* scroll button */
     $('.js--scroll-to-plans').click( function() {
         $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
@@ -21,8 +20,7 @@ $(document).ready( function() {
     $('.js--scroll-to-start').click( function() {
         $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
     });
-
-    
+   
 /* navigation scroll */
     // Select all links with hashes
     $('a[href*="#"]')
@@ -56,8 +54,7 @@ $(document).ready( function() {
           }
         }
       });
-    
-    
+ 
 /* scrolling animations */
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated fadeIn')
@@ -82,8 +79,21 @@ $(document).ready( function() {
     },{
         offset: '50%'
     });
-    
+
+/* mobile navi */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-content');
+        var icon = $('.js--nav-icon i');
+        
+        nav.slideToggle(200);
+        
+        if(icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+        }
+    });
     
 });
-
-
