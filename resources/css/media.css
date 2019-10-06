@@ -29,6 +29,7 @@
     
     .app-screen { width: 45%; }
     .work-steps { margin-bottom: 10%; }
+    .work-steps div {padding-top: 10px; }
     
     .section-cities i { 
         margin-right: 1%;
@@ -124,7 +125,7 @@
         margin-top: 30px;
     }
     
-    .work-steps { margin-bottom: 10%; }
+    .work-steps { margin-bottom: 3%; }
     
     .app-logo img {
         height: 35px;
@@ -147,7 +148,8 @@
     }
     
     .city-feature {
-        font-size : 105%;
+        font-size : 90%;
+        margin-bottom: 1%;
     }
     
     .customer-testimonial {

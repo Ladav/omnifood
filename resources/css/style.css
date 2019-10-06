@@ -16,7 +16,7 @@ body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'montserrat', 'arial', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
@@ -25,7 +25,7 @@ body { overflow-x: hidden; }
 
 .clearfix {zoom: 1}
 .clearfix:after {
-    content: '.';
+    content: '';
     clear: both;
     display: block;
     height: 0;
@@ -376,12 +376,12 @@ header {
     margin-top: -5px;
 }
 
-.section-cities h3 { text-align: center; }
+.section-cities h3 { margin-top: 15px; }
 
 .section-cities img { width: 100%; }
 
 .city-feature {
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     padding: 1px;
 }
 
