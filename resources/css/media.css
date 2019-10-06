@@ -63,7 +63,6 @@
 /* normal phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
     /* mobile nav */
-    
     .main-content { display: none; }
     
     .mobile-nav-icon { display: inline-block; }
@@ -84,7 +83,7 @@
     }
     
     .sticky .main-content { margin-top: 10px; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon { margin-top: 13px; color: #555; }
     .sticky .logo-black { float: left; }
 
     .sticky .main-content li a:link,

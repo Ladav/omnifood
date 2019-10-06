@@ -227,6 +227,7 @@ header {
 
 /* mobile nav */
 .mobile-nav-icon {
+    color: #fff;
     display: none;
     float: right;
     cursor: pointer;
