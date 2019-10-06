@@ -28,7 +28,7 @@
     .long-copy { width: 85%; }
     
     .app-screen { width: 45%; }
-    .work-steps { margin-bottom: 10%; }
+    .work-steps { margin-bottom: 30px; }
     .work-steps div {padding-top: 10px; }
     
     .section-cities i { 
@@ -125,7 +125,7 @@
         margin-top: 30px;
     }
     
-    .work-steps { margin-bottom: 3%; }
+    .work-steps { margin-bottom: 25px; }
     
     .app-logo img {
         height: 35px;
