@@ -83,7 +83,7 @@
     }
     
     .sticky .main-content { margin-top: 10px; }
-    .sticky .mobile-nav-icon { margin-top: 13px; color: #555; }
+    .sticky .mobile-nav-icon { margin-top: 2%; color: #555; }
     .sticky .logo-black { float: left; }
 
     .sticky .main-content li a:link,
