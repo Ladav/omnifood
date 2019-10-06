@@ -56,9 +56,7 @@
         margin: 0 10%;
     }
     
-    
     .footer-nav li:last-child { margin-right: 0; }
-    
 }
 
 /* normal phones to small tablets: from 481px to 767px */
@@ -147,10 +145,7 @@
         font-size: 120%;
     }
     
-    .city-feature {
-        font-size : 90%;
-        margin-bottom: 1%;
-    }
+    .city-feature { margin-bottom: 1%; }
     
     .customer-testimonial {
         font-size: 100%;
@@ -187,6 +182,8 @@
     h2 { font-size: 180%; }
     h2:after { width: 15%; }
     
+    .media-box-cities { font-size: 100%; }
+
     .footer-nav li  { 
         margin-left: 0;
         margin-right: 10px;  
